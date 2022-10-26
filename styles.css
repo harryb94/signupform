@@ -1,3 +1,6 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 body {
@@ -6,13 +9,14 @@ body {
     display: flex;
     justify-content: center;
     height: 100vh;
+    font-size: 16px;
     background-color: black;
 }
 
 .left{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    width: 20vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 30vw;
     background-image: url("galaxy.jpg");
     background-color: black;
     background-size: cover;
@@ -21,12 +25,76 @@ body {
 }
 
 .right {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    width: 40vw;
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 50vw;
+    background-color: rgb(17, 17, 17);
     border-top-right-radius: 5vh;
     border-bottom-right-radius: 5vh;
+}
+
+header{
+    color: rgb(100, 100, 100);
+    margin: 0;
+    padding: 5vh;
+    height: 20%;
+    font-size: 0.75em;
+}
+
+.forms {
+    background-color: rgb(48, 45, 83);
+    margin: 0;
+    padding: 1vh;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forms h1 {
+    font-size: 1em;
+    margin: 0;
+}
+
+fieldset {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.inputfield {
+    display: flex;
+    margin: 1vh;
+    font-size: 0.75em;
+
+}
+
+.inputfield input {
+    margin-left: auto;
+    margin-right: 20%;
+    width: 40%;
+}
+
+input {
+    font-size: 1em;
+}
+
+footer {
+    margin: 0;
+    padding: 5vh;
+    height: 20%;
+}
+
+button {
+    font-size: 0.75em;
 }
 
 
