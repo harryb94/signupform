@@ -1,0 +1,32 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.left{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 20vw;
+    background-image: url("galaxy.jpg");
+    background-color: black;
+    background-size: cover;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+}
+
+.right {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 40vw;
+    background-color: white;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+
+
